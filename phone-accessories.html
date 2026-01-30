@@ -6,85 +6,101 @@
   <meta name="description" content="Affordable phone accessories for college students. Chargers, stands, cases, and small upgrades that make daily student life easier.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <head>
+  <!-- Roboto font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <style>
+    /* Base Styles */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', Arial, sans-serif;
       margin: 0;
-      background: #f5f5f5;
+      background: #FFF8F0; /* light cream page background */
+      color: #333; /* default text color */
     }
 
+    /* Header */
     header {
-      background-color: darkblue;
-      color: yellow;
+      background-color: #4E4E4E; /* soft charcoal */
+      color: #FFF; /* white text */
       padding: 25px 20px;
       text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
     }
 
+    /* Navigation */
     nav {
-      background: #222;
+      background: #555; /* darker gray for nav */
       text-align: center;
       padding: 12px 0;
     }
 
     nav a {
-      color: #fff;
+      color: #FFF;
       margin: 0 15px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
+      transition: color 0.2s ease;
     }
 
     nav a:hover {
-      color: #ff9900;
+      color: #D9822B; /* copper accent hover */
     }
 
+    /* Main Section */
     section {
       max-width: 900px;
       margin: auto;
       padding: 20px;
     }
 
+    /* Cards */
     .card {
-      background: #fff;
+      background: #FFFFFF; /* white card background */
       padding: 20px;
       margin-bottom: 25px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+      box-shadow: 0 4px 12px rgba(0,0,0,.05);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0,0,0,.12);
+      box-shadow: 0 8px 20px rgba(0,0,0,.08);
     }
 
+    /* Highlighted Card */
     .highlight {
-      background: #fffbe6;
-      border-left: 6px solid #ff8c00;
+      background: #FFF5E6; /* softer highlight */
+      border-left: 6px solid #D9822B; /* copper accent */
     }
 
     .subtext {
       color: #666;
-      font-size: 15px;
+      font-size: 0.9rem;
       margin-top: 4px;
     }
 
+    /* Buttons */
     a.button {
       display: inline-block;
-      background: linear-gradient(135deg, #ffb347, #ff9900);
-      color: #000;
-      padding: 14px 22px;
-      border-radius: 999px;
+      background: linear-gradient(135deg, #D9822B, #B56824); /* warm gradient */
+      color: #FFF;
+      padding: 14px 24px;
+      border-radius: 999px; /* pill shape */
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
       margin-top: 12px;
       transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
 
     a.button:hover {
       transform: scale(1.05);
-      box-shadow: 0 6px 15px rgba(255,153,0,.4);
+      box-shadow: 0 6px 15px rgba(217,130,43,.4);
     }
 
+    /* Dropdown Lists */
     .dropdown-list {
       display: none;
       margin-top: 14px;
@@ -106,18 +122,20 @@
 
     .dropdown-list a {
       text-decoration: none;
-      color: #000;
+      color: #333;
       font-weight: 500;
     }
 
     .dropdown-list a:hover {
       text-decoration: underline;
+      color: #D9822B;
     }
 
+    /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      font-size: 14px;
+      font-size: 0.85rem;
       color: #555;
     }
   </style>
@@ -130,6 +148,7 @@
     }
   </script>
 </head>
+
 
 <body>
 
